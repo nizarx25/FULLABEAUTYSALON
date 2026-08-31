@@ -87,8 +87,7 @@ const SERVICES = [
 ];
 
 const WHY_US = [
-  { icon: <Gem className="w-7 h-7" />, title: "موقع مميز", description: "في فندق السفير بقلب مدينة حمص، بيئة فاخرة ومريحة" },
-  { icon: <Star className="w-7 h-7" />, title: "خبرة احترافية", description: "بإدارة خبيرة التجميل هبة صبّوح ذات الخبرة الواسعة" },
+  { icon: <Gem className="w-7 h-7" />, title: "موقع مميز", description: "جانب فندق السفير بقلب مدينة حمص، بيئة فاخرة ومريحة" },  { icon: <Star className="w-7 h-7" />, title: "خبرة احترافية", description: "بإدارة خبيرة التجميل هبة صبّوح ذات الخبرة الواسعة" },
   { icon: <Sparkles className="w-7 h-7" />, title: "منتجات عالمية", description: "نستخدم أرقى المستحضرات والعلامات التجارية العالمية" },
   { icon: <Heart className="w-7 h-7" />, title: "اهتمام بالتفاصيل", description: "نحرص على كل تفصيلة لنضمن رضاكم التام" },
 ];
@@ -147,8 +146,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center gap-1.5">
             <MapPin className="w-3.5 h-3.5 text-[#C9A96E]" />
-            <span>فندق السفير - حمص، سوريا</span>
-          </div>
+            <span>جانب فندق السفير - حمص، سوريا</span>          </div>
           <div className="flex items-center gap-3">
             <a href={PHONE_TEL} className="flex items-center gap-1 hover:text-[#C9A96E] transition-colors" aria-label="اتصل بنا">
               <Phone className="w-3.5 h-3.5" />
@@ -233,7 +231,8 @@ export default function Home() {
             </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 font-display leading-tight">فلة بيوتي صالون</h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/85 mb-2 font-display font-light">Fulla Beauty Salon by Hiba</p>
-            <p className="text-base sm:text-lg text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">بإدارة خبيرة التجميل هبة صبّوح<br />نقدم لكِ تجربة تجميل استثنائية في فندق السفير - حمص</p>
+            
+            <p className="text-base sm:text-lg text-white/70 mb-10 max-w-2xl mx-auto leading-relaxed">بإدارة خبيرة التجميل هبة صبّوح<br />نقدم لكِ تجربة تجميل استثنائية في موقعنا جانب فندق السفير - حمص</p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="bg-[#25D366] hover:bg-[#1EBE57] text-white rounded-full px-8 py-6 text-base gap-2 shadow-xl shadow-[#25D366]/30 shimmer">
@@ -302,7 +301,7 @@ export default function Home() {
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-bold text-[#2D1B2E] mb-6 font-display leading-tight">أكثر من صالون تجميل<br /><span className="text-gradient-rose">إنه تجربة فاخرة</span></h2>
                 <div className="space-y-4 text-[#2D1B2E]/75 leading-relaxed text-base">
-                  <p>صالون <strong className="text-[#C77DBA]">فلة بيوتي</strong> هو الفرع الأول من سلسلة صالونات فلة في سوريا، يقع في موقع استراتيجي مميز داخل <strong>فندق السفير</strong> بمدينة حمص.</p>
+                  <p>صالون <strong className="text-[#C77DBA]">فلة بيوتي</strong> هو الفرع الأول من سلسلة صالونات فلة في سوريا، يقع في موقع استراتيجي مميز جانب <strong>فندق السفير</strong> بمدينة حمص.</p>
                   <p>بإدارة <strong className="text-[#C77DBA]">خبيرة التجميل هبة صبّوح</strong>، صاحبة خبرة واسعة في عالم التجميل وعدد كبير من المتابعين على منصات التواصل الاجتماعي، نقدم خدمات ميكاب وتسريحات وعناية بالبشرة بأعلى معايير الجودة.</p>
                   <p>نسعى لأن تكون كل زيارة لكِ تجربة استثنائية، حيث نجمع بين الفخامة والاحترافية والاهتمام بأدق التفاصيل لنمنحكِ الإطلالة التي تستحقينها.</p>
                 </div>
@@ -489,8 +488,7 @@ export default function Home() {
                 </a>
                 <div className="flex items-center gap-4 p-5 bg-[#FFFAFB] rounded-xl border border-[#F5E6F2]">
                   <div className="w-14 h-14 bg-[#FDF2F8] rounded-xl flex items-center justify-center text-[#C77DBA]"><MapPin className="w-6 h-6" /></div>
-                  <div><div className="font-bold text-[#2D1B2E] text-sm font-display">الموقع</div><div className="text-[#7A5F7C] text-sm">فندق السفير - حمص، سوريا</div></div>
-                </div>
+                  <div><div className="font-bold text-[#2D1B2E] text-sm font-display">الموقع</div><div className="text-[#7A5F7C] text-sm">جانب فندق السفير - حمص، سوريا</div></div>                </div>
                 <div className="flex items-center gap-3 pt-3">
                   <span className="text-sm text-[#7A5F7C] font-medium">تابعينا:</span>
                   <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="w-11 h-11 bg-[#FDF2F8] rounded-full flex items-center justify-center text-[#E1306C] hover:bg-[#E1306C] hover:text-white transition-colors" aria-label="إنستاغرام"><Instagram className="w-5 h-5" /></a>
@@ -498,7 +496,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="rounded-2xl overflow-hidden shadow-xl border border-[#E8D5E4]/50 h-full min-h-[400px]">
-                <iframe src={MAPS_EMBED_URL} width="100%" height="100%" style={{ border: 0, minHeight: "400px" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="موقع صالون فلة بيوتي - فندق السفير حمص" />
+                <iframe src={MAPS_EMBED_URL} width="100%" height="100%" style={{ border: 0, minHeight: "400px" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="موقع صالون فلة بيوتي - جانب فندق السفير حمص" />
               </div>
             </div>
           </div>
@@ -517,8 +515,7 @@ export default function Home() {
                   <span className="block text-xs text-[#C9A96E] tracking-wider" dir="ltr">FULLA BEAUTY SALON BY HIBA</span>
                 </div>
               </div>
-              <p className="text-white/60 text-sm leading-relaxed max-w-md mb-5">فرع أول من سلسلة صالونات فلة في سوريا. بإدارة خبيرة التجميل هبة صبّوح، نقدم لكم خدمات تجميل احترافية في موقع فاخر بفندق السفير - حمص.</p>
-              <div className="flex items-center gap-3">
+              <p className="text-white/60 text-sm leading-relaxed max-w-md mb-5">فرع أول من سلسلة صالونات فلة في سوريا. بإدارة خبيرة التجميل هبة صبّوح، نقدم لكم خدمات تجميل احترافية في موقع فاخر جانب فندق السفير - حمص.</p>              <div className="flex items-center gap-3">
                 <a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#E1306C] transition-colors" aria-label="إنستاغرام"><Instagram className="w-4 h-4" /></a>
                 <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#1877F2] transition-colors" aria-label="فيسبوك"><Facebook className="w-4 h-4" /></a>
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-[#25D366] transition-colors" aria-label="واتساب"><MessageCircle className="w-4 h-4" /></a>
@@ -533,8 +530,7 @@ export default function Home() {
               <ul className="space-y-3">
                 <li><a href={PHONE_TEL} className="flex items-center gap-2 text-white/60 hover:text-[#C9A96E] transition-colors text-sm"><Phone className="w-4 h-4" /><span dir="ltr">{PHONE_DISPLAY}</span></a></li>
                 <li><a href={`mailto:${EMAIL}`} className="flex items-center gap-2 text-white/60 hover:text-[#C9A96E] transition-colors text-sm"><Mail className="w-4 h-4" /><span>{EMAIL}</span></a></li>
-                <li className="flex items-start gap-2 text-white/60 text-sm"><MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" /><span>فندق السفير - حمص، سوريا</span></li>
-              </ul>
+                <li className="flex items-start gap-2 text-white/60 text-sm"><MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" /><span>جانب فندق السفير - حمص، سوريا</span></li>              </ul>
             </div>
           </div>
         </div>
