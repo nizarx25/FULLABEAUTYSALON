@@ -544,7 +544,8 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <VisitorCounter variant="footer" />
               <span className="text-white/20">|</span>
-              <p className="text-white/40 text-xs">تنفيذ ... <span className="text-[#C9A96E] font-semibold">(NIZAR RAHME)</span></p>
+              <p className="text-white/40 text-xs"> تنفيذ {" "}  <a    href="https://nizarrahme.com"
+    target="_blank"    rel="noopener noreferrer"    className="text-[#C9A96E] font-semibold hover:text-[#C9A96E]/80 transition-colors"  >    NIZAR RAHME  </a></p>
             </div>
           </div>
         </div>
