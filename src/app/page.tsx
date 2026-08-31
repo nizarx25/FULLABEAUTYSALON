@@ -544,7 +544,7 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <VisitorCounter variant="footer" />
               <span className="text-white/20">|</span>
-              <p className="text-white/40 text-xs">Developed By <span className="text-[#C9A96E] font-semibold">QSERVA</span></p>
+              <p className="text-white/40 text-xs">تنفيذ ... <span className="text-[#C9A96E] font-semibold">(NIZAR RAHME)</span></p>
             </div>
           </div>
         </div>
