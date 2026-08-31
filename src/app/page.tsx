@@ -269,6 +269,7 @@ export default function Home() {
             </div>
           </div>
           <div className="absolute bottom-8 left-1/2 -translate-x-1/2 float-animation">
+            <div className="w-7 h-11 border-2 border-white/30 rounded-full flex justify-center pt-2">
               <div className="w-1.5 h-3 bg-white/60 rounded-full animate-bounce" />
             </div>
           </div>
